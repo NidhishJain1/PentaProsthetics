@@ -3,10 +3,11 @@ html{
 	font-family: 'verdana';
 	--background-color:  #113b7d;
 	--header-color: #474f5c;
+	--footer-color: firebrick;
 }
 body{
 	color: black;
- 	background-color: blue;
+ 	background-color: var(--background-color);
  	margin: 0;
  	padding: 0;
  	border-radius: 0px;
@@ -23,4 +24,14 @@ header{
 	align-items: center;
  	padding: 0;
  	margin: 0;
+}
+footer{
+	position: fixed;
+	padding: 0;
+ 	margin: 0;
+	display: flex;
+	bottom: 0;
+	background-color: var(--footer-color);
+	flex-direction: row;
+	align-items: center;
 }
