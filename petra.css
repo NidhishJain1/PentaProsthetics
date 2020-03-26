@@ -6,7 +6,7 @@ html{
 }
 body{
 	color: black;
- 	background-color: var(--background-color);
+ 	background-color: blue;
  	margin: 0;
  	padding: 0;
  	border-radius: 0px;
