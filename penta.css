@@ -1,7 +1,7 @@
 html{
 	font-size: 16px;
 	font-family: 'Palatino Linotype';
-	--background-color:  #113b7d;
+	--background-color:  white;
 	--header-color: #474f5c;
 	--footer-color: firebrick;
 }
