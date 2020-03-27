@@ -48,12 +48,26 @@ nav li {
 	margin-left: 70px;
 	padding-top: 25px;
 	
+	position: relative;
 }
 nav a {
 	color: gray;
 	text-decoration: none;
 	text-transform: uppercase;
 }
+
+nav a:hover {
+	color: black;
+}
+
+nav a::before{
+	content: ''
+	display:block;
+	height:5px;
+	width:100%;
+	background-color: gray;
+}
+
 footer{
 	position: fixed;
 	padding: 0;
