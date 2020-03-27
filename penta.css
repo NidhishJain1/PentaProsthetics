@@ -66,6 +66,14 @@ nav a::before{
 	height:5px;
 	width:100%;
 	background-color: gray;
+	
+	position: absolute;
+	top: 0;
+	width: 0%;
+}
+
+nav a:hover::before{
+	width: 100%;
 }
 
 footer{
