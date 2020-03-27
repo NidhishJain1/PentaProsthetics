@@ -38,6 +38,17 @@ header: :after {
 nav{
 	float: right;
 }
+nav ul {
+	margin 0;
+	list-style: none;
+}
+
+nav li {
+	display: inline-block;
+	margin-left: 70px;
+	padding-top: 25px;
+	
+}
 footer{
 	position: fixed;
 	padding: 0;
