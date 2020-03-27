@@ -49,6 +49,11 @@ nav li {
 	padding-top: 25px;
 	
 }
+nav a {
+	color: gray;
+	text-decoration: none;
+	text-transform: uppercase;
+}
 footer{
 	position: fixed;
 	padding: 0;
