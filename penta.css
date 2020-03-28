@@ -23,7 +23,7 @@ header{
 	width: 100vw;
 	height: 75px;
 	background-color: var(--header-color);
-	border-bottom: 3px solid sky blue; 
+	border-bottom: 3px solid sky blue;
 	display: flex;
 	flex-direction: row;
 	align-items: center;
@@ -37,7 +37,7 @@ header: :after {
 	clear: both;
 }
 nav{
-	float: center;
+	float: right;
 }
 nav ul {
 	margin 0;
@@ -48,7 +48,7 @@ nav li {
 	display: inline-block;
 	margin-left: 70px;
 	padding-top: 20px;
-	
+
 	position: relative;
 }
 nav a {
@@ -56,10 +56,14 @@ nav a {
 	text-decoration: none;
 	text-transform: uppercase;
 }
+.sub-menu-1{
+	display: none;
+}
 
 nav a:hover {
 	color: #ff5d47;
 	font-weight: bold;
+	text-decoration: none;
 }
 
 nav a::before{
@@ -68,11 +72,11 @@ nav a::before{
 	height:3px;
 	width:100%;
 	background-color: #ff5d47;
-	
+
 	position: absolute;
 	top: 0;
 	width: 0%;
-	
+
 	transition: all ease-in-out 275ms;
 }
 
