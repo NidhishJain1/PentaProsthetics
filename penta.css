@@ -13,84 +13,77 @@ body{
  	padding: 0;
  	border-radius: 0px;
 }
-.container{
-	width: 100%;
-	margin: 0 auto;
-	}
+
 header{
 	top: 0;
 	position: fixed;
 	width: 100vw;
 	height: 75px;
 	background-color: var(--header-color);
-	border-bottom: 3px solid sky blue;
-	display: flex;
-	flex-direction: row;
-	align-items: center;
+	border-bottom: 3px solid skyblue;
  	padding: 0;
  	margin: 0;
 }
 
-header: :after {
-	content: '';
-	display: table;
-	clear: both;
-}
-nav{
-	float: right;
-}
-nav ul {
-	margin 0;
+.navbar{
 	list-style: none;
+ 	padding: 0;
+ 	margin: 0;
+ 	display: flex;
+ 	flex-direction: row;
+ 	align-items: center;
+ 	height: 100%;
+ 	float: right;
 }
 
-nav li {
-	display: inline-block;
+.navbar li{
+	margin-right: 20px;
 	margin-left: 70px;
-	padding-top: 20px;
-
-	position: relative;
+	padding-top: 30px;
+	height: 100%;
 }
-nav a {
+
+.navbar li a{
 	color: white;
 	text-decoration: none;
 	text-transform: uppercase;
-}
-.sub-menu-1{
-	display: none;
+	transition: all ease-in-out 275ms;
 }
 
-nav a:hover {
+.navbar li  .top-menu-item:before{
+	content: "";
+	display:block;
+	height:3px;
+	width: 0%;
+	background-color: #ff5d47;
+	transition: all ease-in-out 275ms;
+}
+
+.navbar li:hover a{
 	color: #ff5d47;
 	font-weight: bold;
 	text-decoration: none;
 }
 
-nav a::before{
-	content: '';
-	display:block;
-	height:3px;
-	width:100%;
-	background-color: #ff5d47;
-
-	position: absolute;
-	top: 0;
-	width: 0%;
-
-	transition: all ease-in-out 275ms;
-}
-
-nav a:hover::before{
+.navbar li:hover a:before{
 	width: 100%;
 }
 
-footer{
-	position: fixed;
-	padding: 0;
- 	margin: 0;
-	display: flex;
-	bottom: 0;
-	background-color: var(--footer-color);
-	flex-direction: row;
-	align-items: center;
+.about-us-dropdown{
+	height: 0;
+	display: block;
+	overflow: hidden;
+	position: absolute;
+	transition: all ease-in-out 600ms;
+}
+
+.about-us-menu:hover .about-us-dropdown{
+	height: 100px;
+	background-color: #f1f1f1;
+	min-width: 160px;
+	z-index: 1;
+}
+
+.about-us-menu:hover .about-us-dropdown a{
+	display: inherit;
 }
