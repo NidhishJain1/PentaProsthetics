@@ -43,6 +43,10 @@ header{
 	height: 100%;
 }
 
+.navbar:last-child{
+	padding-right: 100px;
+}
+
 .navbar li a{
 	color: white;
 	text-decoration: none;
