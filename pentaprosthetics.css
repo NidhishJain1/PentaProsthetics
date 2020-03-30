@@ -88,6 +88,6 @@ header{
 	z-index: 1;
 }
 
-.about-us-menu:hover .about-us-dropdown a{
+.about-us-dropdown a{
 	display: inherit;
 }
