@@ -75,6 +75,7 @@ header{
 
 .about-us-dropdown{
 	height: 0;
+	width: 190px;
 	display: block;
 	overflow: hidden;
 	position: absolute;
@@ -83,11 +84,12 @@ header{
 
 .about-us-menu:hover .about-us-dropdown{
 	height: 100px;
+	width: 190px;
 	background-color: #f1f1f1;
 	min-width: 160px;
 	z-index: 1;
 }
 
 .about-us-dropdown a{
-	display: inherit;
+	display: block;
 }
