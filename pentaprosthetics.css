@@ -60,7 +60,7 @@ header{
 	transition: all ease-in-out 275ms;
 }
 
-.navbar li  .top-menu-item:before{
+.top-menu-item:before{
 	content: "";
 	display:block;
 	height:3px;
@@ -92,8 +92,6 @@ header{
 	height: 100px;
 	width: 190px;
 	background-color: #f1f1f1;
-	min-width: 160px;
-	z-index: 1;
 }
 
 .about-us-dropdown a{
@@ -106,4 +104,36 @@ footer{
 	height: 12rem;
 	position: absolute;
 	bottom: 0;
+}
+
+footer div{
+	margin-left: 0.8rem;
+	margin-top: 0.8rem;
+}
+
+.seal-transparency{
+	position: absolute;
+	right: 1rem;
+	top: 1rem;
+	width: 10rem;
+	height: 10rem;
+}
+
+.footer-container-1{
+	display: flex;
+}
+
+.footer-container-1 span{
+	margin-right: 5px;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.footer-container-1 span a{
+	color: black;
+	text-decoration: none;
+}
+
+.footer-container-1 span:hover a{
+	color: gray;
 }
