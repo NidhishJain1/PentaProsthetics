@@ -60,6 +60,10 @@ header{
 	transition: all ease-in-out 275ms;
 }
 
+.video1{
+	padding-top: 30px;
+}
+
 .top-menu-item:before{
 	content: "";
 	display:block;
