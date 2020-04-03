@@ -117,6 +117,7 @@ BODY CSS
 */
 
 main{
+	font-weight: 300;
 	margin-top: 100px;
 	text-align: center;
 	margin-bottom: 100px;
