@@ -10,6 +10,7 @@ GENERAL CSS
 
 html{
 	font-size: 16px;
+	font-weight: 200;
 	--background-color:  white;
 	--header-color: #b0e0e6;
 	--footer-color: #b0e0e6;
@@ -33,8 +34,8 @@ header{
 	position: fixed;
 	width: 100vw;
 	height: 75px;
-	background-color: var(--header-color);
-	border-bottom: 3px solid skyblue;
+	background-color: white;
+	border-bottom: 3px solid white;
  	padding: 0;
  	margin: 0;
 }
@@ -68,7 +69,7 @@ header{
 }
 
 .navbar li a{
-	color: white;
+	color: #b0e0e6;
 	text-decoration: none;
 	text-transform: uppercase;
 	transition: all ease-in-out 275ms;
