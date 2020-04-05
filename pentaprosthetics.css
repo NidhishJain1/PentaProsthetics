@@ -10,7 +10,7 @@ GENERAL CSS
 
 html{
 	font-size: 16px;
-	font-weight: 200;
+	font-weight: 80;
 	--background-color:  white;
 	--header-color: #b0e0e6;
 	--footer-color: #b0e0e6;
@@ -44,6 +44,7 @@ header{
 	margin: 0; 
 	padding: 0;
 	border: 0;
+	float: left;
 }
 
 .navbar{
