@@ -34,16 +34,17 @@ header{
 	width: 100vw;
 	height: 75px;
 	background-color: white;
-	border-bottom: 3px solid white;
- 	padding: 0;
+	border-bottom: 3px solid  #b0e0e6;;
+ 	padding-top: 5px;
  	margin: 0;
 }
 
 .logo{
+	float: left;
 	margin: 0; 
 	padding: 0;
 	border: 0;
-	float: right;
+	
 }
 
 .navbar{
