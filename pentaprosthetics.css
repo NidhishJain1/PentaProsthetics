@@ -31,7 +31,6 @@ HEADER CSS
 
 header{
 	top: 0;
-	position: fixed;
 	width: 100vw;
 	height: 75px;
 	background-color: white;
@@ -44,7 +43,7 @@ header{
 	margin: 0; 
 	padding: 0;
 	border: 0;
-	float: left;
+	float: right;
 }
 
 .navbar{
