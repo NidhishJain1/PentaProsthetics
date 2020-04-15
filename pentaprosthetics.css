@@ -9,20 +9,23 @@ GENERAL CSS
 */
 
 html{
-	font-size: 16px;
+	font-size: 13px;
 	font-weight: 80;
 	--background-color:  white;
 	--header-color: #b0e0e6;
 	--footer-color: #b0e0e6;
+    --header-height: 100px;
 	text-decoration: none;
 }
 body{
 	color: black;
- 	background-color: var(--background-color);
+ 	/*background-color: var(--background-color);*/
+    background-image: linear-gradient(rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.05) ), url(double-bubble-outline.png);
  	margin: 0;
  	padding: 0;
- 	font-family: 'Fjalla One',sans-serif;
+ 	font-family: 'Lado',sans-serif;
  	border-radius: 0px;
+    padding-top: var(--header-height);
 }
 
 /*
@@ -30,12 +33,12 @@ HEADER CSS
 */
 
 header{
-	font-size: 20px;
+	font-size: 15px;
 	top: 0;
 	width: 100vw;
-	height: 100px;
+	height: var(--header-height);
+    position: fixed;
 	background-color: white;
-	border-bottom: 3px solid  #b0e0e6;
  	padding-top: 5px;
  	margin: 0;
 }
@@ -70,7 +73,7 @@ header{
 }
 
 .navbar li a{
-	color: #b0e0e6;
+	color: #679399;
 	text-decoration: none;
 	text-transform: uppercase;
 	transition: all ease-in-out 275ms;
@@ -81,13 +84,12 @@ header{
 	display:block;
 	height:3px;
 	width: 0%;
-	background-color: #ff5d47;
+	background-color: #3EA6B4;
 	transition: all ease-in-out 275ms;
 }
 
 .navbar li:hover a{
-	color: #ff5d47;
-	font-weight: bold;
+	color: #3EA6B4;
 	text-decoration: none;
 }
 
