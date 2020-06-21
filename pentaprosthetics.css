@@ -20,7 +20,11 @@ html{
 body{
 	color: black;
  	/*background-color: var(--background-color);*/
+<<<<<<< HEAD
     /*background-image: linear-gradient(rgba(0, 0, 0, 0.001), rgba(0, 0, 0, 0.001) ), url(double-bubble-outline.png);*/
+=======
+
+>>>>>>> origin/master
  	margin: 0;
  	padding: 0;
  	font-family: 'Lado',sans-serif;
@@ -39,7 +43,7 @@ header{
 	height: var(--header-height);
     position: fixed;
 	background-color: white;
- 	padding-top: 5px;
+ 	padding-top: 20px;
  	margin: 0;
 }
 
