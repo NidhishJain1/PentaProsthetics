@@ -11,20 +11,21 @@ GENERAL CSS
 html{
 	font-size: 13px;
 	font-weight: 80;
+    text-decoration: none;
+
+
 	--background-color:  white;
+
+
 	--header-color: #b0e0e6;
 	--footer-color: #b0e0e6;
     --header-height: 100px;
-	text-decoration: none;
+    --header-font-size: 15px;
+    --header-background-color: white;
 }
 body{
 	color: black;
- 	/*background-color: var(--background-color);*/
-<<<<<<< HEAD
-    /*background-image: linear-gradient(rgba(0, 0, 0, 0.001), rgba(0, 0, 0, 0.001) ), url(double-bubble-outline.png);*/
-=======
-
->>>>>>> origin/master
+ 	background-color: var(--background-color);
  	margin: 0;
  	padding: 0;
  	font-family: 'Lado',sans-serif;
@@ -37,13 +38,13 @@ HEADER CSS
 */
 
 header{
-	font-size: 15px;
+	font-size: var(--header-font-size);
 	top: 0;
 	width: 100vw;
 	height: var(--header-height);
     position: fixed;
-	background-color: white;
- 	padding-top: 20px;
+	background-color: var(--header-background-color);
+ 	padding-top: 15px;
  	margin: 0;
 }
 
