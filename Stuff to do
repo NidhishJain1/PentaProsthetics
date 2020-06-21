@@ -1,0 +1,12 @@
+1. Make the penta logo a clickable link that returns the user to the homepage
+2. make the dropdown menu nicer
+3. make the footer actually exist
+4. reorganize the home page to make it look nice
+5. Create other pages
+-About Us: a page with  anchors that can be accessed through the dropdown 
+-Media
+-Partners and Sponsers
+-Guidelines
+-Donate and Volunteer
+-maybe an FAQs?
+6. implement the special js effects like text appearing only after you scroll down to it
