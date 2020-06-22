@@ -45,7 +45,6 @@ header{
 	top: 0;
 	width: 100vw;
 	height: var(--header-height);
-    position: fixed;
 	background-color: var(--header-background-color);
  	padding-top: 15px;
  	margin: 0;
