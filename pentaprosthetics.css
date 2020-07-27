@@ -34,6 +34,10 @@ body{
     padding-top: var(--header-height);
 }
 
+.text-font{
+	font-family: 'Libre Franklin', sans-serif;
+}
+
 /*
 HEADER CSS
 */
