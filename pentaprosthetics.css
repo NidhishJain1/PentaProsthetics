@@ -169,10 +169,21 @@ main{
     padding: 40px;
 	font-weight: 300;
 	margin-top: 100px;
-	text-align: center;
 	margin-bottom: 100px;
 	margin left: 900px;
 	margin right: 900px;
+}
+
+.homepage-penta-images-container{
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+}
+
+.homepage-main-text{
+    margin: 50px 300px;
 }
 
 .video1 iframe{
